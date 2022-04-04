@@ -1,0 +1,188 @@
+*{
+  margin:0; 
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Fire Sans', sans-serif; }
+
+
+.app{
+  display: flex;
+  min-height: 90vh; }
+
+#attention {
+  color: white;}
+
+/* LEFT SIDE BAR */
+
+.left-sidebar .attention{
+  color: white;}
+
+.left-sidebar{
+  width: 15%;
+  flex: 1-1-0;
+  max-height: 50%;
+  padding: 2rem 1rem;
+  /* background-color:rgb(48, 41, 83) */
+  background-color:rgb(42, 32, 90);}
+
+.left-sidebar h3{
+  color: #fcd703;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;}
+
+.left-sidebar .menu{
+  margin:0 -1rem;}
+
+.left-sidebar .menu .menu-item{
+  display: block;
+  padding: 15px;px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s linear;}
+
+.left-sidebar .menu .menu-item:hover,.left-sidebar .menu .menu-item.is-active{
+  background-color: #fcd703;
+  color: black;}
+
+/* CONTENT */
+
+.content{
+  padding-left:3vh;
+  padding-right:3vh;
+  padding-top: 3vh;
+  width: 68%;
+  background-color: #210038;
+  color: white;}
+
+.scroll-bg{
+  background: rgb(0, 174, 255);}
+
+.scroll-div{
+  background: #210038;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll;}
+
+.scroll-div::-webkit-scrollbar{
+  display: none;}
+
+.scroll-object{
+  padding: 10px;}
+
+/* RECOMMENDED ALBUM */
+
+.rec-title{
+  padding: 2.5rem 0 1rem;}
+
+.rec-album h3{
+  margin: 30px 0 30px 0;}
+
+.rec-album ul{
+  display: flex}
+
+.rec-album ul a img{
+  width: 15vh;
+  padding-bottom:7px;}
+
+.rec-album ul a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(42, 32, 90);
+  margin-right: 2vh;
+  padding-bottom:7px;}
+
+.rec-album-first{
+  overflow: hidden;
+  overflow-x: scroll;}
+
+.rec-album-first::-webkit-scrollbar{
+  grid-auto-rows: auto;
+} 
+
+.rec-album ul a h5 {
+  padding-bottom: 3px;
+  padding-left: 10px;}
+
+.rec-album ul a h6 {
+  padding-left: 10px;
+  color: #b0b0b0;}
+
+/* RECOMMENDED ARTIST */
+
+.rec-artist{
+  margin-top: 30px;}
+
+/* RIGHT SIDEBAR */
+
+.right-sidebar{
+  width: 17%;
+  background-color: #210038;
+  color: white;
+  padding-top: 3vh;}
+
+.weekly-one{
+  background: #210038;
+  padding-top: 10px;}
+
+.weekly-two{
+  background: #210038;
+  height: 35vh;
+  overflow: hidden;
+  overflow-y: scroll;}
+
+.weekly-two::-webkit-scrollbar{
+  display: none;}
+  
+.weekly-three{
+background: #210038;}
+
+.weekly-three ul .song{
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;}
+
+.weekly-three ul .song:hover{
+  background: #fcd703;
+  color: black;}
+
+.sales {
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;}
+
+.third ul a{
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 20px;}
+
+.third ul a:hover{
+  background: #fcd703;}
+
+.third ul a img{
+  width: 4vw;}
+
+.listsupport h6{
+  color:#b0b0b0;}
+
+.third ul a .title{
+  padding: 10px;
+  color: white;
+  background:   rgb(42, 32, 90);
+  width: 25vh;}
+
+.second{
+  background:#210038;
+  height: 35vh;
+  overflow: hidden;
+  overflow-y: scroll;}
+
+.second::-webkit-scrollbar{
+  display: none;}
+
+/* NAVIGATION BOTTOM / PLAY PAUSE */
+
+.nav-bottom{
+  background: rgb(69, 54, 146);
+  height: 10vh;
+  box-shadow: 5px #fcd703 ;}
